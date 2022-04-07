@@ -25,6 +25,9 @@
     font-size:x-large;
     text-decoration:underline;
 }
+li{
+    border: solid 2px black;
+}
 a{
     color: black;
     text-decoration: none;
@@ -143,7 +146,3 @@ a{
 .btn-6 span:hover:after {
     width: 100%;
 }
-
-
-
- 
