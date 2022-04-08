@@ -32,6 +32,9 @@ a{
     color: black;
     text-decoration: none;
 }
+.p{
+    font-size: medium;
+}
 .Centrado{
     display: flex;
     justify-content: center;
@@ -40,9 +43,22 @@ a{
 }
 .Fotos_S{
     display: flex;
-    width: 300px;
+    width: 250px;
     text-align: center;
-    border: double 2px red;
+    border: double 2px blue;
+}
+.Enlace{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    background-color: blue;
+    color: white;
+    border: solid 1px black;
+    font-size: larger;
+}
+.Borde{
+    border: solid 2px black;
+    margin: 15px;
 }
 .Texto{
     display: flex;
