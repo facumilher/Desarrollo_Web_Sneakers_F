@@ -6,7 +6,6 @@
 .Logo{
     border: solid 2px black;
     padding: 5px;
-    margin-top: 15px;
     display: flex;
     justify-content:right;
     width: 100px;
