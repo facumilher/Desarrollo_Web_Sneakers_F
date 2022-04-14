@@ -1,0 +1,22 @@
+.Centrado {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  margin: 0;
+}
+
+.Enlace {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  background-color: blue;
+  color: white;
+  border: solid 1px black;
+  font-size: larger;
+}
+
+li {
+  border: solid 2px black;
+}
+
+/*# sourceMappingURL=style.css.map */
