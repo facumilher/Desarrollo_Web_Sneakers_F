@@ -1,8 +1,72 @@
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0px;
+  font-size: x-large;
+  text-decoration: underline;
+}
+header nav ul li {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 30px;
+  font-size: x-large;
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  justify-content: right;
+  color: blueviolet;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: lightcoral;
+}
+
+.Logo {
+  border: solid 2px black;
+  padding: 5px;
+  display: flex;
+  justify-content: right;
+  width: 100px;
+}
+
+.Titulo {
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  text-decoration: wavy;
+}
+
+li {
+  border: solid 2px black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.p {
+  font-size: medium;
+}
+
 .Centrado {
   display: flex;
   justify-content: center;
   align-content: flex-start;
   margin: 0;
+}
+
+.Fotos_S {
+  display: flex;
+  width: 250px;
+  text-align: center;
+  border: double 2px blue;
 }
 
 .Enlace {
@@ -15,8 +79,121 @@
   font-size: larger;
 }
 
-li {
+.Borde {
   border: solid 2px black;
+  margin: 15px;
+}
+
+.Texto {
+  display: flex;
+  align-content: flex-end;
+  justify-content: center;
+}
+
+.Der {
+  display: flex;
+  justify-content: right;
+  text-align: end;
+}
+
+.Informacion {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+}
+
+.Icono {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+}
+
+.Seccion {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-6 {
+  background: rgb(247, 150, 192);
+  background: radial-gradient(circle, rgb(247, 150, 192) 0%, rgb(118, 174, 241) 100%);
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+
+.btn-6 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-6:before,
+.btn-6:after {
+  position: absolute;
+  content: "";
+  height: 0%;
+  width: 1px;
+  box-shadow: -1px -1px 20px 0px rgb(255, 255, 255), -4px -4px 5px 0px rgb(255, 255, 255), 7px 7px 20px 0px rgba(0, 0, 0, 0.4), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.btn-6:before {
+  right: 0;
+  top: 0;
+  transition: all 500ms ease;
+}
+
+.btn-6:after {
+  left: 0;
+  bottom: 0;
+  transition: all 500ms ease;
+}
+
+.btn-6:hover {
+  background: transparent;
+  color: #e60f8c;
+  box-shadow: none;
+}
+
+.btn-6:hover:before {
+  transition: all 500ms ease;
+  height: 100%;
+}
+
+.btn-6:hover:after {
+  transition: all 500ms ease;
+  height: 100%;
+}
+
+.btn-6 span:before,
+.btn-6 span:after {
+  position: absolute;
+  content: "";
+  box-shadow: -1px -1px 20px 0px rgb(255, 255, 255), -4px -4px 5px 0px rgb(255, 255, 255), 7px 7px 20px 0px rgba(0, 0, 0, 0.4), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.btn-6 span:before {
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 0.5px;
+  transition: all 500ms ease;
+}
+
+.btn-6 span:after {
+  right: 0;
+  bottom: 0;
+  width: 0%;
+  height: 0.5px;
+  transition: all 500ms ease;
+}
+
+.btn-6 span:hover:before {
+  width: 100%;
+}
+
+.btn-6 span:hover:after {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
