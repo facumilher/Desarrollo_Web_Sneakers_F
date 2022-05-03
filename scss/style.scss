@@ -78,6 +78,7 @@ a{
     display: flex;
     justify-content:space-between;
 }
+/*Animaciones*/
 .btn-6 {
     background: rgb(247,150,192);
     background: radial-gradient(circle, rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%);
@@ -157,6 +158,9 @@ a{
 .btn-6 span:hover:after {
     width: 100%;
 }
+/*Fin de Animaciones*/
+
+
 .formulario{
     display: flex;
     justify-content: center;
