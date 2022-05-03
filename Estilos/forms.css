@@ -1,7 +1,12 @@
+*{
+    background-color: black;
+    color: orangered;
+}
 .speaker-form-header {
     text-align: center;
-    background-color: #F6F7F8;
+    background-color: black;
     border: 1px solid #D6D9DC;
+    color: orangered;
     border-radius: 3px;
     margin: 40px 0;
     padding: 50px;
@@ -13,7 +18,8 @@
 }
   
 .speaker-form {
-    background-color: #F6F7F8;
+    background-color: black;
+    color: orangered;
     border: 1px solid #D6D9DC;
     border-radius: 3px;
     margin: 0 0 40px 0;
