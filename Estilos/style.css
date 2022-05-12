@@ -15,12 +15,29 @@ header nav ul li {
   text-decoration: underline;
 }
 
+@media (max-width: 480px) {
+  header nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0px;
+    font-size: x-large;
+    text-decoration: underline;
+  }
+  header nav ul li {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 10px;
+    font-size: large;
+    text-decoration: underline;
+  }
+}
 footer {
   display: flex;
   justify-content: right;
   color: blueviolet;
 }
-
 
 * {
   background-color: black;
